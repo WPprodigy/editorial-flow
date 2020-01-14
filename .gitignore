@@ -1,0 +1,8 @@
+/node_modules
+
+# Excluding for now.
+/package-lock.json
+
+# Won't be using these right now. Ideally we won't need to commit built files at all in the future.
+/built-assets/*.js.map
+/built-assets/*.asset.php

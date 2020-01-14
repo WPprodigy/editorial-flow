@@ -1,0 +1,12 @@
+{
+	"name": "editorial-flow",
+	"version": "1.0.0",
+	"license": "GPL-2.0-or-later",
+	"devDependencies": {
+		"@wordpress/scripts": "6.1.1"
+	},
+	"scripts": {
+		"dev":   "wp-scripts start includes/modules/editorial-comments/assets/comments-panel.js includes/modules/general-settings/assets/sidebar.js --output-path=built-assets",
+		"build": "wp-scripts build includes/modules/editorial-comments/assets/comments-panel.js includes/modules/general-settings/assets/sidebar.js --output-path=built-assets"
+	}
+}
